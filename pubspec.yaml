@@ -42,6 +42,7 @@ dependencies:
   url_launcher: ^6.3.1
   get_storage: ^2.1.1
   flutter_native_splash: ^2.4.6
+  smooth_page_indicator: ^1.2.1
 
 dev_dependencies:
   flutter_test:
@@ -69,7 +70,7 @@ flutter:
   assets:
     - assets/logos/
     - assets/icons/brands/
-    - assets/images/
+    - assets/images/on_boarding_images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
