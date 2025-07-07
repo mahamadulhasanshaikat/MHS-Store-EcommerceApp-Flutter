@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/instance_manager.dart';
 import 'package:mhs_store/features/authentication/controllers/onboarding_controller.dart';
-import 'package:mhs_store/features/authentication/screens/widgets/onboarding_dot_navigation.dart';
-import 'package:mhs_store/features/authentication/screens/widgets/onboarding_next_button.dart';
-import 'package:mhs_store/features/authentication/screens/widgets/onboarding_page.dart';
-import 'package:mhs_store/features/authentication/screens/widgets/onboarding_skip.dart';
+import 'package:mhs_store/features/authentication/screens/onboarding/widgets/onboarding_dot_navigation.dart';
+import 'package:mhs_store/features/authentication/screens/onboarding/widgets/onboarding_next_button.dart';
+import 'package:mhs_store/features/authentication/screens/onboarding/widgets/onboarding_page.dart';
+import 'package:mhs_store/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
 import 'package:mhs_store/utils/constants/image_strings.dart';
 import 'package:mhs_store/utils/constants/text_strings.dart';
 
