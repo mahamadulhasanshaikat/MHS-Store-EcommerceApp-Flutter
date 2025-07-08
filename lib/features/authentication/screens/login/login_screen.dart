@@ -20,15 +20,12 @@ class LoginScreen extends StatelessWidget {
           children: [
             // Logo, Title, SubTitle
             MhsLoginHeader(),
-
             //form
             MhsLoginForm(),
-
-            //Divider
+            // Divider
             MhsFormDivider(dividerText: MhsTexts.orSignInWith.capitalize!),
             SizedBox(height: MhsSizes.spaceBtwSections),
-
-            //Footer
+            // Footer
             MhsSocialButtons(),
           ],
         ),

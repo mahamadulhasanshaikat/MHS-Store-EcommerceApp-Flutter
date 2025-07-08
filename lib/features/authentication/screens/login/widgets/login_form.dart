@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/get_navigation.dart';
+import 'package:get/utils.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:mhs_store/features/authentication/screens/signup/signup_screen.dart';
 import 'package:mhs_store/utils/constants/sizes.dart';
 import 'package:mhs_store/utils/constants/text_strings.dart';
 
@@ -70,7 +73,7 @@ class MhsLoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: OutlinedButton(
-                onPressed: () {},
+                onPressed: () => Get.to(() => SignUpScreen()),
                 child: Text(MhsTexts.createAccount),
               ),
             ),

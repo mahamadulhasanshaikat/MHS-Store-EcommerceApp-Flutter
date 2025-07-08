@@ -4,9 +4,11 @@
 class MhsImages {
   // -- App Logos
   static const String darkAppLogo =
-      "assets/logos/t-store-splash-logo-black.png";
+      "assets/logos/ChatGPT_Image_Jul_8__2025__11_26_33_AM-removebg-preview.png";
+  //  "assets/logos/t-store-splash-logo-black.png";
   static const String lightAppLogo =
-      "assets/logos/t-store-splash-logo-white.png";
+      "assets/logos/ChatGPT_Image_Jul_8__2025__01_18_00_AM-removebg-preview.png";
+  //  "assets/logos/t-store-splash-logo-white.png";
 
   // -- Social Logos
   static const String google = "assets/logos/google-icon.png";

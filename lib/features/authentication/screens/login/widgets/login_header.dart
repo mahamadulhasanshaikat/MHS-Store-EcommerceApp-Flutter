@@ -15,6 +15,7 @@ class MhsLoginHeader extends StatelessWidget {
       children: [
         Image(
           height: 150,
+          width: 155,
           image: AssetImage(
             dark ? MhsImages.lightAppLogo : MhsImages.darkAppLogo,
           ),

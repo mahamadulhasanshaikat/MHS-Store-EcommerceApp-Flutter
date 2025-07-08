@@ -1,14 +1,13 @@
 flutter_native_splash:
   color: "#FFFFFF"
-  color_dark: "#000000"
-  image: assets/logos/t-store-splash-logo-black.png
-  image_dark: assets/logos/t-store-splash-logo-white.png
+  color_dark: "#272727"
+  image: assets/logos/ChatGPT_Image_Jul_8__2025__11_26_33_AM-removebg-preview.png
+  image_dark: assets/logos/ChatGPT_Image_Jul_8__2025__01_18_00_AM-removebg-preview.png
 
   android_12:
     color: "#FFFFFF"
-    color_dark: "#000000"
-    image: assets/logos/t-store-splash-logo-black.png
-    image_dark: assets/logos/t-store-splash-logo-white.png
-
+    color_dark: "#272727"
+    image: assets/logos/ChatGPT_Image_Jul_8__2025__11_26_33_AM-removebg-preview.png
+    image_dark: assets/logos/ChatGPT_Image_Jul_8__2025__01_18_00_AM-removebg-preview.png
 
   web: false
