@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 import 'package:get/utils.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:mhs_store/features/authentication/screens/password_configuration.dart/forget_password_screen.dart';
 import 'package:mhs_store/features/authentication/screens/signup/signup_screen.dart';
 import 'package:mhs_store/utils/constants/sizes.dart';
 import 'package:mhs_store/utils/constants/text_strings.dart';
@@ -53,7 +54,7 @@ class MhsLoginForm extends StatelessWidget {
 
                 //Forget password
                 TextButton(
-                  onPressed: () {},
+                  onPressed: () => Get.to(() => ForgetPasswordScreen()),
                   child: Text(MhsTexts.forgetPassword),
                 ),
               ],

@@ -1,132 +1,131 @@
 import 'package:flutter/material.dart';
+import '../../constants/colors.dart';
 
+/// Custom Class for Light & Dark Text Themes
 class MhsTextTheme {
-  MhsTextTheme._();
-  // Custom Light Text Theme
+  MhsTextTheme._(); // To avoid creating instances
+
+  /// Customizable Light Text Theme
   static TextTheme lightTextTheme = TextTheme(
-    headlineLarge: TextStyle().copyWith(
+    headlineLarge: const TextStyle().copyWith(
       fontSize: 32.0,
       fontWeight: FontWeight.bold,
-      color: Colors.black,
+      color: MhsColors.dark,
     ),
-    headlineMedium: TextStyle().copyWith(
+    headlineMedium: const TextStyle().copyWith(
       fontSize: 24.0,
       fontWeight: FontWeight.w600,
-      color: Colors.black,
+      color: MhsColors.dark,
     ),
-    headlineSmall: TextStyle().copyWith(
+    headlineSmall: const TextStyle().copyWith(
       fontSize: 18.0,
       fontWeight: FontWeight.w600,
-      color: Colors.black,
+      color: MhsColors.dark,
     ),
 
-    titleLarge: TextStyle().copyWith(
+    titleLarge: const TextStyle().copyWith(
       fontSize: 16.0,
       fontWeight: FontWeight.w600,
-      color: Colors.black,
+      color: MhsColors.dark,
     ),
-    titleMedium: TextStyle().copyWith(
+    titleMedium: const TextStyle().copyWith(
       fontSize: 16.0,
       fontWeight: FontWeight.w500,
-      color: Colors.black,
+      color: MhsColors.dark,
     ),
-    titleSmall: TextStyle().copyWith(
+    titleSmall: const TextStyle().copyWith(
       fontSize: 16.0,
       fontWeight: FontWeight.w400,
-      color: Colors.black,
+      color: MhsColors.dark,
     ),
 
-    bodyLarge: TextStyle().copyWith(
+    bodyLarge: const TextStyle().copyWith(
       fontSize: 14.0,
       fontWeight: FontWeight.w500,
-      color: Colors.black,
+      color: MhsColors.dark,
     ),
-    bodyMedium: TextStyle().copyWith(
+    bodyMedium: const TextStyle().copyWith(
       fontSize: 14.0,
       fontWeight: FontWeight.normal,
-      color: Colors.black,
+      color: MhsColors.dark,
     ),
-    bodySmall: TextStyle().copyWith(
+    bodySmall: const TextStyle().copyWith(
       fontSize: 14.0,
       fontWeight: FontWeight.w500,
-      // ignore: deprecated_member_use
-      color: Colors.black.withOpacity(0.5),
+      color: MhsColors.dark.withOpacity(0.5),
     ),
 
-    labelLarge: TextStyle().copyWith(
+    labelLarge: const TextStyle().copyWith(
       fontSize: 12.0,
       fontWeight: FontWeight.normal,
-      color: Colors.black,
+      color: MhsColors.dark,
     ),
-    labelMedium: TextStyle().copyWith(
-      fontSize: 24.0,
-      fontWeight: FontWeight.w600,
-      // ignore: deprecated_member_use
-      color: Colors.black.withOpacity(0.5),
+    labelMedium: const TextStyle().copyWith(
+      fontSize: 12.0,
+      fontWeight: FontWeight.normal,
+      color: MhsColors.dark.withOpacity(0.5),
     ),
   );
 
-  //Custom Dark Text Theme
+  /// Customizable Dark Text Theme
   static TextTheme darkTextTheme = TextTheme(
-    headlineLarge: TextStyle().copyWith(
+    headlineLarge: const TextStyle().copyWith(
       fontSize: 32.0,
       fontWeight: FontWeight.bold,
-      color: Colors.white,
+      color: MhsColors.light,
     ),
-    headlineMedium: TextStyle().copyWith(
+    headlineMedium: const TextStyle().copyWith(
       fontSize: 24.0,
       fontWeight: FontWeight.w600,
-      color: Colors.white,
+      color: MhsColors.light,
     ),
-    headlineSmall: TextStyle().copyWith(
+    headlineSmall: const TextStyle().copyWith(
       fontSize: 18.0,
       fontWeight: FontWeight.w600,
-      color: Colors.white,
+      color: MhsColors.light,
     ),
 
-    titleLarge: TextStyle().copyWith(
+    titleLarge: const TextStyle().copyWith(
       fontSize: 16.0,
       fontWeight: FontWeight.w600,
-      color: Colors.white,
+      color: MhsColors.light,
     ),
-    titleMedium: TextStyle().copyWith(
+    titleMedium: const TextStyle().copyWith(
       fontSize: 16.0,
       fontWeight: FontWeight.w500,
-      color: Colors.white,
+      color: MhsColors.light,
     ),
-    titleSmall: TextStyle().copyWith(
+    titleSmall: const TextStyle().copyWith(
       fontSize: 16.0,
       fontWeight: FontWeight.w400,
-      color: Colors.white,
+      color: MhsColors.light,
     ),
 
-    bodyLarge: TextStyle().copyWith(
+    bodyLarge: const TextStyle().copyWith(
       fontSize: 14.0,
       fontWeight: FontWeight.w500,
-      color: Colors.white,
+      color: MhsColors.light,
     ),
-    bodyMedium: TextStyle().copyWith(
+    bodyMedium: const TextStyle().copyWith(
       fontSize: 14.0,
       fontWeight: FontWeight.normal,
-      color: Colors.white,
+      color: MhsColors.light,
     ),
-    bodySmall: TextStyle().copyWith(
+    bodySmall: const TextStyle().copyWith(
       fontSize: 14.0,
       fontWeight: FontWeight.w500,
-      // ignore: deprecated_member_use
-      color: Colors.white.withOpacity(0.5),
+      color: MhsColors.light.withOpacity(0.5),
     ),
 
-    labelLarge: TextStyle().copyWith(
+    labelLarge: const TextStyle().copyWith(
       fontSize: 12.0,
       fontWeight: FontWeight.normal,
-      color: Colors.white,
+      color: MhsColors.light,
     ),
-    labelMedium: TextStyle().copyWith(
-      fontSize: 24.0,
-      fontWeight: FontWeight.w600,
-      // ignore: deprecated_member_use
-      color: Colors.white.withOpacity(0.5),
+    labelMedium: const TextStyle().copyWith(
+      fontSize: 12.0,
+      fontWeight: FontWeight.normal,
+      color: MhsColors.light.withOpacity(0.5),
     ),
   );
 }
