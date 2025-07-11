@@ -15,7 +15,6 @@ class App extends StatelessWidget {
       theme: MhsAppTheme.lightTheme,
       darkTheme: MhsAppTheme.darkTheme,
       debugShowCheckedModeBanner: false,
-
       home: OnboardingScreen(),
     );
   }

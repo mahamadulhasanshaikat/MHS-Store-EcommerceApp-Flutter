@@ -8,5 +8,5 @@ void main() {
   // todo : Initialize firebase
   // todo : Initial auth
 
-  runApp( App());
+  runApp(App());
 }
