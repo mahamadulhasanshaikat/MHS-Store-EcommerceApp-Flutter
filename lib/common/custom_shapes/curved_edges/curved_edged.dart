@@ -6,8 +6,8 @@ class MhsCustomCurvedEdges extends CustomClipper<Path> {
     var path = Path();
     path.lineTo(0, size.height);
 
-    final firstCurve = Offset(0, size.height - 20);
-    final lastCurve = Offset(30, size.height - 20);
+    final firstCurve = Offset(0, size.height - 30);
+    final lastCurve = Offset(30, size.height - 30);
     path.quadraticBezierTo(
       firstCurve.dx,
       firstCurve.dy,
@@ -15,8 +15,8 @@ class MhsCustomCurvedEdges extends CustomClipper<Path> {
       lastCurve.dy,
     );
 
-    final secondFirstCurve = Offset(0, size.height - 20);
-    final secondlastCurve = Offset(size.width - 30, size.height - 20);
+    final secondFirstCurve = Offset(0, size.height - 30);
+    final secondlastCurve = Offset(size.width - 30, size.height - 30);
     path.quadraticBezierTo(
       secondFirstCurve.dx,
       secondFirstCurve.dy,
@@ -24,7 +24,7 @@ class MhsCustomCurvedEdges extends CustomClipper<Path> {
       secondlastCurve.dy,
     );
 
-    final thirdFirstCurve = Offset(size.width, size.height - 20);
+    final thirdFirstCurve = Offset(size.width, size.height - 30);
     final thirdlastCurve = Offset(size.width, size.height);
     path.quadraticBezierTo(
       thirdFirstCurve.dx,

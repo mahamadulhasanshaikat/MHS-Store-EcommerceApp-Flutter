@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:mhs_store/common/custom_shapes/containers/search_container.dart';
+import 'package:mhs_store/common/widgets/texts/section_heading.dart';
 import 'package:mhs_store/features/shop/screens/home/widgets/home_appbar.dart';
 import 'package:mhs_store/utils/constants/sizes.dart';
 import '../../../../common/custom_shapes/containers/primary_header_container.dart';
+import 'widgets/home_categories.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -30,10 +32,16 @@ class HomeScreen extends StatelessWidget {
                     padding: EdgeInsets.only(left: MhsSizes.defaultSpace),
                     child: Column(
                       children: [
-                        Text(
-                          "Popular Categories",
-                          style: Theme.of(context).textTheme.headlineSmall,
+                        // Heading
+                        MhsSectionHeading(
+                          title: 'Popular Categories',
+                          showActionButton: false,
+                          textColor: Colors.white,
                         ),
+                        SizedBox(height: MhsSizes.spaceBtwItems),
+
+                        // Categories
+                        MhsHomeCategories(),
                       ],
                     ),
                   ),

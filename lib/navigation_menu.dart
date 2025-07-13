@@ -24,7 +24,9 @@ class NavigationMenuScreen extends StatelessWidget {
           backgroundColor: darkMode ? MhsColors.black : Colors.white,
           indicatorColor:
               darkMode
+                  // ignore: deprecated_member_use
                   ? MhsColors.white.withOpacity(0.1)
+                  // ignore: deprecated_member_use
                   : MhsColors.black.withOpacity(0.1),
           destinations: [
             NavigationDestination(icon: Icon(Iconsax.home), label: "Home"),

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/get_core.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:mhs_store/features/authentication/screens/password_configuration.dart/reset_password_screen.dart';
 import 'package:mhs_store/utils/constants/sizes.dart';

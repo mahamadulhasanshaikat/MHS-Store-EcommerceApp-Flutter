@@ -24,6 +24,7 @@ class MhsPrimaryHeaderContainer extends StatelessWidget {
                 top: -100,
                 right: -250,
                 child: MhsCircularContainer(
+                  // ignore: deprecated_member_use
                   backgroundColor: MhsColors.textWhite.withOpacity(0.1),
                 ),
               ),
@@ -31,6 +32,7 @@ class MhsPrimaryHeaderContainer extends StatelessWidget {
                 top: 100,
                 right: -300,
                 child: MhsCircularContainer(
+                  // ignore: deprecated_member_use
                   backgroundColor: MhsColors.textWhite.withOpacity(0.1),
                 ),
               ),

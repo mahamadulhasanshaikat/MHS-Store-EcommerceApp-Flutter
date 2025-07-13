@@ -52,6 +52,7 @@ class MhsTextTheme {
     bodySmall: const TextStyle().copyWith(
       fontSize: 14.0,
       fontWeight: FontWeight.w500,
+      // ignore: deprecated_member_use
       color: MhsColors.dark.withOpacity(0.5),
     ),
 
@@ -63,6 +64,7 @@ class MhsTextTheme {
     labelMedium: const TextStyle().copyWith(
       fontSize: 12.0,
       fontWeight: FontWeight.normal,
+      // ignore: deprecated_member_use
       color: MhsColors.dark.withOpacity(0.5),
     ),
   );
@@ -114,6 +116,7 @@ class MhsTextTheme {
     bodySmall: const TextStyle().copyWith(
       fontSize: 14.0,
       fontWeight: FontWeight.w500,
+      // ignore: deprecated_member_use
       color: MhsColors.light.withOpacity(0.5),
     ),
 
@@ -125,6 +128,7 @@ class MhsTextTheme {
     labelMedium: const TextStyle().copyWith(
       fontSize: 12.0,
       fontWeight: FontWeight.normal,
+      // ignore: deprecated_member_use
       color: MhsColors.light.withOpacity(0.5),
     ),
   );
