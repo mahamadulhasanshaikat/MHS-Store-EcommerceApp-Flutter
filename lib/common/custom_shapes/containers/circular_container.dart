@@ -10,10 +10,12 @@ class MhsCircularContainer extends StatelessWidget {
     this.padding = 0,
     this.child,
     this.backgroundColor = MhsColors.white,
+    this.margin,
   });
 
   final double? width, height;
   final double radius, padding;
+  final EdgeInsets? margin;
   final Widget? child;
   final Color backgroundColor;
 
@@ -22,6 +24,7 @@ class MhsCircularContainer extends StatelessWidget {
     return Container(
       width: width,
       height: height,
+      margin: margin,
       padding: EdgeInsets.all(padding),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(radius),
